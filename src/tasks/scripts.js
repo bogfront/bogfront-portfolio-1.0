@@ -14,6 +14,8 @@ var output_file = 'application.min.js';
 
 var src_files = [
                 // config.src_path + "bower_components/angular/angular.min.js",
+                config.src_path + "bower_components/swiper/dist/js/swiper.min.js",
+                config.src_path + "bower_components/jquery/dist/jquery.min.js",
                 config.src_path + "js/**/*",
                 config.src_path + "js/*"
             ];

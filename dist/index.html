@@ -7,12 +7,20 @@
     <title>Superbog</title>
 
     <link href="css/screen.css" rel="stylesheet">
-    <script src="js/angular.min.js"></script>
 </head>
 <body>
 
-    <h1>Hello, {{ name }} !</h1>
-    <input type="text" ng-model="name">
+    <div class="container">
+        <div class="works-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide works-slide">Slide 1</div>
+                <div class="swiper-slide works-slide">Slide 2</div>
+                <div class="swiper-slide works-slide">Slide 3</div>
+            </div>
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
 
     <script src="js/application.min.js"></script>
 </body>

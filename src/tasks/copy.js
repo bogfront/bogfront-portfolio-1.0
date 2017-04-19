@@ -4,6 +4,9 @@ var config = require('../../gulpconfig.json');
 var gulp = require(config.nm + 'gulp');
 var gutil = require(config.nm + 'gulp-util');
 var newer = require(config.nm + 'gulp-newer');
+if (config.enable_browser_sync) {
+    var browserSync = require('browser-sync');
+}
 
 var copy_config = [
             config.src_path + "views/*"
