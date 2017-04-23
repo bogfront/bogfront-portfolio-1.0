@@ -9,10 +9,10 @@ if (config.enable_browser_sync) {
 }
 
 var copy_config = [
-            config.src_path + "views/*"
+            config.src_path + "views/**/*"
         ];
 
-var watchPath = config.src_path + 'views/*';
+var watchPath = config.src_path + 'views/**/*';
 var output_path = config.build_path;
 
 

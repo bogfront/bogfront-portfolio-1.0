@@ -13,11 +13,16 @@ var output_path = config.build_path + 'js/';
 var output_file = 'application.min.js';
 
 var src_files = [
-                // config.src_path + "bower_components/angular/angular.min.js",
-                config.src_path + "bower_components/swiper/dist/js/swiper.min.js",
                 config.src_path + "bower_components/jquery/dist/jquery.min.js",
-                config.src_path + "js/**/*",
-                config.src_path + "js/*"
+                // config.src_path + "bower_components/angular/angular.min.js",
+                // config.src_path + "bower_components/angular-route/angular-route.min.js",
+                config.src_path + "bower_components/swiper/dist/js/swiper.min.js",
+                config.src_path + "bower_components/parallax/deploy/jquery.parallax.min.js",
+                config.src_path + "js/main.js",
+                // config.src_path + "js/app.module.js",
+                // config.src_path + "js/app.config.js",
+                // config.src_path + "js/main-page/main-page.module.js",
+                // config.src_path + "js/main-page/main-page.component.js",
             ];
 
 var watch_files = [

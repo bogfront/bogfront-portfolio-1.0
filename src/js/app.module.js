@@ -2,8 +2,11 @@
  * Created by bogdan on 11.04.17.
  */
 
-// 'use strict';
+'use strict';
 
-// angular.module('personal', [
-//
-// ]);
+angular.module('personal', [
+    //external
+    'ngRoute'
+
+    //internal
+]);
