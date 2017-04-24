@@ -11,3 +11,34 @@
   letter-spacing: 5px;
   text-transform: uppercase;
 }
+
+.header{
+  position: absolute;
+  z-index: 100;
+  left: 70px;
+  top: 30px;
+
+  &-navbar{
+    padding: 0;
+    margin: 0;
+
+    li{
+      display: inline-block;
+      margin-right: 20px;
+
+      a{
+        font-family: @font-base;
+        font-size: 18px;
+        font-weight: 300;
+        color: #333;
+        text-decoration: none;
+        opacity: .8;
+        transition: opacity .2s;
+
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

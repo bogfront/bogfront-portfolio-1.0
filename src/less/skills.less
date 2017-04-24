@@ -1,0 +1,78 @@
+
+.skills{
+
+  &-header{
+    position: relative;
+    top: 0;
+    height: 30vh;
+    background: #4bbae9;
+
+    &_title{
+      color: #fff;
+      font-family: @font-base;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 150px;
+      letter-spacing: 20px;
+      margin: 0;
+      line-height: 30vh;
+    }
+  }
+
+  &-container{
+    width: 80%;
+    margin: 40px 10%;
+  }
+
+  &-table{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &-card{
+      margin: 20px 40px;
+      width: 300px;
+      height: 420px;
+      box-shadow: 2px 2px 10px 2px #efefef;
+
+      &_head{
+        background: #254bba;
+        height: 180px;
+
+        .title{
+          line-height: 180px;
+          font-size: 50px;
+          color: #fff;
+          text-align: center;
+          font-family: @font-base;
+        }
+      }
+
+      &_info{
+        padding: 20px 15px;
+        font-family: @font-base;
+        color: #171314;
+
+        .key{
+          width: 50px;
+          margin-right: 10px;
+          display: inline-block;
+          vertical-align: top;
+          font-weight: 300;
+        }
+
+        .value{
+          display: inline-block;
+          width: 170px;
+          vertical-align: top;
+        }
+      }
+
+      p{
+        padding: 0;
+        margin: 10px 0;
+        font-weight: 300;
+      }
+    }
+  }
+}
